@@ -137,6 +137,11 @@ android {
 }
 
 dependencies {
+    compile project(':react-native-view-shot')
+    compile project(':react-native-vector-icons')
+    compile project(':react-native-signature-capture')
+    compile project(':react-native-fetch-blob')
+    compile project(':react-native-camera')
     compile project(':mobile-center-crashes')
     compile project(':mobile-center-analytics')
     compile fileTree(dir: "libs", include: ["*.jar"])

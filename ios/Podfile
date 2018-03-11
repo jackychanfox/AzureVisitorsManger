@@ -12,6 +12,14 @@ target 'VistorsManager' do
 
   
 
+  pod 'react-native-camera', :path => '../node_modules/react-native-camera'
+
+  pod 'react-native-fetch-blob', :path => '../node_modules/react-native-fetch-blob'
+
+  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+
+  pod 'RNViewShot', :path => '../node_modules/react-native-view-shot'
+
   target 'VistorsManagerTests' do
     inherit! :search_paths
     # Pods for testing
