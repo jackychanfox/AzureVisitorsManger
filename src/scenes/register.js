@@ -22,7 +22,7 @@ import {
 
 import { Actions } from 'react-native-router-flux';
 import IonIcons from 'react-native-vector-icons/Ionicons'
-import CountryPicker from 'react-native-country-picker-modal'
+// import CountryPicker from 'react-native-country-picker-modal'
 import Camera from 'react-native-camera'
 import DatePicker from 'react-native-datepicker'
 
